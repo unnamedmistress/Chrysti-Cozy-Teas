@@ -38,7 +38,8 @@ header nav ul li {
 #container{
 display:flex;
 background: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
-height: 700px;
+width:auto;
+	height: 700px;
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
@@ -50,7 +51,7 @@ justify-content: center;
 
 #text {
     position: absolute;
-    width: 100%;
+    width: auto;
     background: #000;
     align-items: center;
     -webkit-transform: translateX(-100%);
@@ -72,13 +73,13 @@ justify-content: center;
 }
 
 #teashead{
-    width: 100%;
+    width: auto;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding:0;
 }
 
 #teas{
-    width: 100%;
+    width: auto;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -150,6 +151,7 @@ justify-content: center;
     height:200px;
     font-family: cobblestone, serif;
     line-height: 0.5px;
+	width:auto;
 
 }
 
@@ -166,6 +168,7 @@ footer{
     margin-left: 20px;
     line-height: 1;
     font-family:'Courier New', Courier, monospace;
+	width:auto;
     
 }
 
