@@ -72,13 +72,13 @@ justify-content: center;
 }
 
 #teashead{
-    width: 1000px;
+    width: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding:0;
 }
 
 #teas{
-    max-width: 1000px;
+    width: 100%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -112,7 +112,7 @@ justify-content: center;
     background-repeat: no-repeat;
     display:flex;
     max-height: 500px;
-    max-width: 1000px; 
+   width: 100%;
 }
 .information{
     display: inline-block;
